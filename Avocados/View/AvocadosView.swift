@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AvocadosView.swift
 //  Avocados
 //
 //  Created by Rick Brown on 01/09/2020.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AvocadosView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text("Avocados")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AvocadosView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AvocadosView()
     }
 }

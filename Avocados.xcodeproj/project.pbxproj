@@ -13,6 +13,10 @@
 		14C3F64724FEAB6C009BE114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C3F64624FEAB6C009BE114 /* Assets.xcassets */; };
 		14C3F64A24FEAB6C009BE114 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C3F64924FEAB6C009BE114 /* Preview Assets.xcassets */; };
 		14C3F64D24FEAB6C009BE114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C3F64B24FEAB6C009BE114 /* LaunchScreen.storyboard */; };
+		14C3F65824FEB3B3009BE114 /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C3F65724FEB3B3009BE114 /* AvocadosView.swift */; };
+		14C3F65B24FEB3DA009BE114 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C3F65A24FEB3DA009BE114 /* RipeningStagesView.swift */; };
+		14C3F65D24FEB400009BE114 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C3F65C24FEB3FF009BE114 /* SettingsView.swift */; };
+		14C3F65F24FEB415009BE114 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C3F65E24FEB415009BE114 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		14C3F64924FEAB6C009BE114 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14C3F64C24FEAB6C009BE114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14C3F64E24FEAB6C009BE114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C3F65724FEB3B3009BE114 /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		14C3F65A24FEB3DA009BE114 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		14C3F65C24FEB3FF009BE114 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		14C3F65E24FEB415009BE114 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,11 @@
 		14C3F63F24FEAB6B009BE114 /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
+				14C3F65624FEB37A009BE114 /* View */,
+				14C3F65524FEB372009BE114 /* Model */,
+				14C3F65424FEB367009BE114 /* Data */,
 				14C3F64024FEAB6B009BE114 /* AppDelegate.swift */,
 				14C3F64224FEAB6B009BE114 /* SceneDelegate.swift */,
-				14C3F64424FEAB6B009BE114 /* ContentView.swift */,
 				14C3F64624FEAB6C009BE114 /* Assets.xcassets */,
 				14C3F64B24FEAB6C009BE114 /* LaunchScreen.storyboard */,
 				14C3F64E24FEAB6C009BE114 /* Info.plist */,
@@ -73,6 +83,32 @@
 				14C3F64924FEAB6C009BE114 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14C3F65424FEB367009BE114 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		14C3F65524FEB372009BE114 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14C3F65624FEB37A009BE114 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14C3F64424FEAB6B009BE114 /* ContentView.swift */,
+				14C3F65724FEB3B3009BE114 /* AvocadosView.swift */,
+				14C3F65A24FEB3DA009BE114 /* RipeningStagesView.swift */,
+				14C3F65C24FEB3FF009BE114 /* SettingsView.swift */,
+				14C3F65E24FEB415009BE114 /* AppView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C3F65824FEB3B3009BE114 /* AvocadosView.swift in Sources */,
+				14C3F65B24FEB3DA009BE114 /* RipeningStagesView.swift in Sources */,
 				14C3F64124FEAB6B009BE114 /* AppDelegate.swift in Sources */,
+				14C3F65F24FEB415009BE114 /* AppView.swift in Sources */,
+				14C3F65D24FEB400009BE114 /* SettingsView.swift in Sources */,
 				14C3F64324FEAB6B009BE114 /* SceneDelegate.swift in Sources */,
 				14C3F64524FEAB6B009BE114 /* ContentView.swift in Sources */,
 			);

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -43,7 +43,6 @@
                             <constraint firstAttribute="trailing" secondItem="ujO-ic-pQe" secondAttribute="trailing" id="RtW-6K-ZLx"/>
                             <constraint firstAttribute="trailing" secondItem="ujO-ic-pQe" secondAttribute="trailing" id="afa-8P-IXG"/>
                             <constraint firstAttribute="bottom" secondItem="ujO-ic-pQe" secondAttribute="bottom" id="dLn-Il-Ewl"/>
-                            <constraint firstItem="ujO-ic-pQe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gaD-UO-seu"/>
                             <constraint firstAttribute="bottom" secondItem="ujO-ic-pQe" secondAttribute="bottom" id="uNs-g9-vOh"/>
                             <constraint firstItem="NpC-nh-0bq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-35" id="xbU-Yf-XsQ"/>
                         </constraints>
