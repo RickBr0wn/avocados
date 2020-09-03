@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140BF0F9250181B10013ECB9 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140BF0F8250181B10013ECB9 /* HeaderModel.swift */; };
+		140BF0FB250181F50013ECB9 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140BF0FA250181F50013ECB9 /* HeaderData.swift */; };
 		14C3F64124FEAB6B009BE114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C3F64024FEAB6B009BE114 /* AppDelegate.swift */; };
 		14C3F64324FEAB6B009BE114 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C3F64224FEAB6B009BE114 /* SceneDelegate.swift */; };
 		14C3F64524FEAB6B009BE114 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C3F64424FEAB6B009BE114 /* ContentView.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		140BF0F8250181B10013ECB9 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		140BF0FA250181F50013ECB9 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		14C3F63D24FEAB6B009BE114 /* Avocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C3F64024FEAB6B009BE114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14C3F64224FEAB6B009BE114 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,7 @@
 		14C3F65424FEB367009BE114 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				140BF0FA250181F50013ECB9 /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 		14C3F65524FEB372009BE114 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				140BF0F8250181B10013ECB9 /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,12 +192,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				14C3F65824FEB3B3009BE114 /* AvocadosView.swift in Sources */,
+				140BF0F9250181B10013ECB9 /* HeaderModel.swift in Sources */,
 				14C3F65B24FEB3DA009BE114 /* RipeningStagesView.swift in Sources */,
 				14C3F64124FEAB6B009BE114 /* AppDelegate.swift in Sources */,
 				14C3F65F24FEB415009BE114 /* AppView.swift in Sources */,
 				14C3F65D24FEB400009BE114 /* SettingsView.swift in Sources */,
 				14C3F64324FEAB6B009BE114 /* SceneDelegate.swift in Sources */,
 				14C3F64524FEAB6B009BE114 /* ContentView.swift in Sources */,
+				140BF0FB250181F50013ECB9 /* HeaderData.swift in Sources */,
 				14D7390F24FEE8D20082848D /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
