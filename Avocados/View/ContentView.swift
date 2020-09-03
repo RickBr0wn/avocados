@@ -25,7 +25,7 @@ struct ContentView: View {
           .fontWeight(.bold)
           .modifier(TitleModifier())
         DishesView()
-          .frame(maxWidth: 640)
+          .frame(maxWidth: 620)
         VStack(alignment: .center, spacing: 20) {
           Text("All about avocados")
             .fontWeight(.bold)
